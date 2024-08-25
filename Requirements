@@ -1,0 +1,32 @@
+---
+
+ **Project Requirements**
+
+To successfully run the Fake News Detection project using a Naive Bayes classifier, ensure the following prerequisites are met:
+
+ **1. Python Environment**
+- **Python Version**: 3.6 or higher
+
+ **2. Required Libraries**
+Install the following Python libraries, which are essential for data processing, model building, and prediction:
+
+- **pandas**: For data manipulation and analysis.
+- **numpy**: For numerical operations and handling arrays.
+- **scikit-learn**: For machine learning algorithms, including Naive Bayes, and utilities for data splitting and vectorization.
+
+You can install all the required libraries using pip:
+```bash
+pip install pandas numpy scikit-learn
+```
+
+ **3. Dataset**
+- **fakerealnews.csv**: The project requires a dataset in CSV format, where news articles are labeled as either "FAKE" or "REAL." This dataset should include columns such as `title`, `text`, and `label`. Ensure that the CSV file is properly formatted and accessible.
+
+**4. Hardware Requirements**
+- Basic hardware (CPU) is sufficient for running this model due to its relatively lightweight computation requirements. 
+- At least 4GB of RAM is recommended to handle data processing and model training tasks.
+
+ **5. Software/Tools**
+- **Jupyter Notebook** (optional): If you prefer running the code interactively in a notebook environment.
+
+---
